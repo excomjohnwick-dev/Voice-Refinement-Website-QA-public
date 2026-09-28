@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Voice Refinement Website"
+description = "A polished, responsive voiceover and Christian ministry services website with service discovery, voice samples, and contact inquiry flows."
+version = "1.0.0"
+id = "artifacts/voice-refinement"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24141
+
+[services.development]
+run = "pnpm --filter @workspace/voice-refinement run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/voice-refinement", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/voice-refinement/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24141"
+BASE_PATH = "/"

@@ -1,0 +1,1 @@
+import{j as e,L as o}from"./index-DuHkXDkA.js";const t=()=>e.jsxs("div",{className:"container-x py-32 text-center",children:[e.jsx("h1",{className:"headline-lg",children:"Service not found"}),e.jsx(o,{to:"/services",className:"mt-6 inline-block text-[color:var(--gold)]",children:"← Back to Services"})]});export{t as notFoundComponent};

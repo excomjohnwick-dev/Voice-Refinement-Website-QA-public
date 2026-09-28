@@ -1,0 +1,117 @@
+# PART 3 — FINAL INTEGRATION, QA & WEBSITE-WIDE VERIFICATION
+
+Perform a complete quality-assurance pass after Parts 1 and 2 have been implemented.
+
+IMPORTANT:
+
+* Do NOT redesign the website.
+* Do NOT remove working functionality.
+* Do NOT introduce unnecessary layout changes.
+* Preserve the existing visual identity and component architecture.
+* Fix only issues related to these revisions and any problems caused by implementing them.
+
+## 1. CHRISTIAN MINISTRY SERVICES VERIFICATION
+
+Check every page and component where services are displayed.
+
+Confirm:
+
+* The wording is exactly “Christian Ministry Services”.
+* It appears FIRST in every relevant service list.
+* No outdated “Ministry Services” label remains where it refers to this service.
+* Home Page ordering is correct.
+* Services Page ordering is correct.
+* Mobile ordering is also correct.
+
+## 2. SERVICES PAGE VERIFICATION
+
+Confirm:
+
+* “We Serve Every Sector” appears FIRST in its intended section/order.
+* Layout remains visually balanced.
+* No duplicate sections were accidentally created.
+* No spacing/alignment issues were introduced.
+
+## 3. VOICE SAMPLE VERIFICATION
+
+Confirm:
+
+* All samples remain their original/full length.
+* No audio was accidentally trimmed.
+* Artist/narrator names are no longer visible.
+* Playback still works.
+* The updated categories are correct:
+
+Asher — Urdu Male
+Khurram — Hindi
+Arshia — Urdu
+Sadaf — Hindi
+
+## 4. BROADCAST TV VERIFICATION
+
+Confirm that:
+
+* PTV is completely removed.
+* Zee is completely removed.
+* Star is completely removed.
+
+Check both frontend display and underlying relevant data/configuration so they do not accidentally reappear.
+
+## 5. CONTACT FORM VERIFICATION
+
+Test the contact/email form.
+
+Confirm:
+
+* Submission works.
+* Validation works.
+* Success state works.
+* Error state works.
+* No console/runtime errors are caused by the form.
+* Existing styling remains intact.
+
+## 6. PHONE NUMBER VERIFICATION
+
+Perform a website-wide search and confirm:
+
+* No contact phone number remains anywhere.
+* No mobile-only or footer-only phone number remains.
+* No CTA contains a phone number.
+* No hidden or duplicate phone number appears in rendered content.
+
+## 7. LINKEDIN VERIFICATION
+
+Confirm:
+
+* Only the intended LinkedIn social link remains active.
+* The link works correctly.
+* No duplicate LinkedIn buttons/links remain.
+
+## 8. DESIGN & RESPONSIVE QA
+
+After all revisions:
+
+* Check desktop.
+* Check tablet.
+* Check mobile.
+* Check navigation.
+* Check spacing.
+* Check alignment.
+* Check typography.
+* Check cards and sections.
+* Check buttons and links.
+* Check animations/transitions.
+* Check for broken layouts, empty spaces, duplicate content, or missing components.
+
+The final result should feel:
+
+* Professional
+* Premium
+* Clean
+* Modern
+* Consistent
+* Christian-focused
+* Fully responsive
+* Production-ready
+
+Do NOT make unrelated creative changes. The objective is to correctly implement and verify the requested client revisions while preserving the existing website.
