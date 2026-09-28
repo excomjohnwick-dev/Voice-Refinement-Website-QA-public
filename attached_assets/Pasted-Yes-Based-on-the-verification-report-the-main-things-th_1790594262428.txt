@@ -1,0 +1,477 @@
+Yes. Based on the verification report, the main things that still need a **final hard verification/fix pass** are the exact artist-to-category mapping, real contact-form submission, and final production QA. Use this as the **last prompt** in Lovable/Replit before sending the website to the client.
+
+# FINAL STRICT PROMPT — CLIENT DELIVERY QA & LAST EDIT
+
+This is the FINAL EDIT and FINAL CLIENT-DELIVERY QA pass.
+
+The website has already been updated according to the requested revisions. DO NOT redesign, rebuild, restructure, or creatively modify the website.
+
+Your job now is to:
+
+1. Audit the currently running website against the complete client requirements.
+2. Identify anything that is still missing, incorrect, inconsistent, or only partially implemented.
+3. Fix every remaining issue.
+4. Re-test everything.
+5. Leave the website in a clean, stable, client-ready production state.
+
+## CRITICAL RULES
+
+* DO NOT rebuild the website from scratch.
+* DO NOT replace the current design.
+* DO NOT remove existing working features.
+* DO NOT change unrelated content.
+* DO NOT introduce unnecessary design changes.
+* Preserve the existing visual identity, animations, navigation, responsive behavior, layouts, components, and functionality.
+* Only make changes required to complete the client's revisions and final QA.
+* Do not stop after identifying issues. FIX them.
+* Do not simply report that something works without actually verifying it.
+* The final website must be ready to show directly to the client.
+
+---
+
+# 1. CHRISTIAN MINISTRY SERVICES — FINAL VERIFICATION
+
+The exact wording must be:
+
+**Christian Ministry Services**
+
+Verify this across the entire website.
+
+Requirements:
+
+### Home Page
+
+* Christian Ministry Services must be the FIRST service under the Studio-Grade Services section.
+* It must appear before every other service.
+
+### Services Page
+
+* Christian Ministry Services must be the FIRST service/category.
+* Verify the actual rendered order, not just the source code.
+
+### Every Other Relevant Page
+
+Wherever services are displayed in a list, grid, navigation, featured section, service cards, filters, or similar UI:
+
+* Christian Ministry Services must be FIRST.
+* The wording must be exactly correct.
+
+Search the entire project for outdated variations such as:
+
+* Ministry Services
+* Ministry Service
+
+Where those refer to this service, replace them with:
+
+**Christian Ministry Services**
+
+Do not leave inconsistent naming anywhere in the visible UI.
+
+---
+
+# 2. WE SERVE EVERY SECTOR — FINAL VERIFICATION
+
+On the Services Page:
+
+* “We Serve Every Sector” must appear in the FIRST requested position.
+* Verify its actual visual position in the rendered page.
+* Make sure no duplicate version exists.
+* Make sure moving it did not create broken spacing or layout problems.
+
+---
+
+# 3. CHRISTIAN-FOCUSED PRESENTATION
+
+The website should consistently reflect the requested Christian-focused identity.
+
+Verify that the relevant:
+
+* headings
+* supporting copy
+* service presentation
+* imagery/icons where applicable
+* section messaging
+
+are consistent with a professional Christian-focused media/service brand.
+
+IMPORTANT:
+
+* Keep the current premium, clean, modern visual identity.
+* Do NOT overdo religious graphics or add unnecessary decorative elements.
+* Do NOT create a completely new visual design.
+* Make only reasonable corrections where the current content does not reflect the requested identity.
+
+---
+
+# 4. VOICE SAMPLES — VERIFY ACTUAL FILES AND UI
+
+This is especially important.
+
+Verify that all four voice samples are still their ORIGINAL/FULL LENGTH.
+
+Do NOT:
+
+* trim them
+* shorten them
+* replace them with shortened previews
+* artificially limit playback duration
+
+The complete audio must remain playable.
+
+Also verify that artist/narrator names are NOT visible anywhere in the Voice Samples UI.
+
+Check:
+
+* Cards
+* Headings
+* Audio player labels
+* Metadata
+* Descriptions
+* Tooltips
+* Mobile UI
+* Desktop UI
+
+No artist/narrator names should be displayed.
+
+---
+
+# 5. EXACT VOICE ARTIST MAPPING — MUST MATCH EXACTLY
+
+This must be verified and corrected at both the data/configuration level and the visible UI level.
+
+The EXACT mapping must be:
+
+**Asher → Urdu Male**
+
+**Khurram → Hindi**
+
+**Arshia → Urdu**
+
+**Sadaf → Hindi**
+
+Do NOT merely verify that the four categories exist.
+
+Verify that each INDIVIDUAL PERSON has the correct category assigned.
+
+If any mapping is incorrect, FIX IT.
+
+After fixing it, verify the actual rendered result for each artist.
+
+Do not change the artist names themselves.
+
+---
+
+# 6. BROADCAST TV — FINAL CLEANUP
+
+The following must be completely removed:
+
+* PTV
+* Zee
+* Star
+
+Verify both:
+
+* Frontend/rendered content
+* Relevant underlying data/configuration
+
+Make sure they cannot accidentally reappear through:
+
+* Cards
+* Lists
+* Arrays
+* Filters
+* Dynamic content
+* Logos
+* Mobile versions
+* Hidden/secondary sections
+
+Do not leave empty/broken placeholders.
+
+---
+
+# 7. CONTACT FORM — REAL END-TO-END VERIFICATION
+
+This is a critical final check.
+
+Do NOT claim the form is working merely because:
+
+* validation exists
+* an endpoint exists
+* the code compiles
+* a success state is present
+
+Actually verify the submission flow as far as the environment allows.
+
+Check:
+
+### Form fields
+
+* Required fields work.
+* Invalid submissions are rejected correctly.
+* Valid submissions are accepted.
+
+### Submission process
+
+* Sending/loading state works.
+* Submission request is actually triggered.
+* Error handling works.
+* Success handling works.
+* Timeout/failure handling works.
+* No JavaScript/runtime errors occur.
+
+### Email delivery
+
+Use the project's configured email/contact mechanism.
+
+Where the environment allows:
+
+* Perform a real test submission.
+* Confirm the request reaches the configured endpoint.
+* Confirm the endpoint returns a successful response.
+* Confirm there is no configuration issue preventing delivery.
+
+If actual inbox delivery cannot be independently verified in this environment, do NOT falsely claim that delivery was confirmed. Instead ensure the production configuration is correctly implemented and report only what was actually verified.
+
+Do not redesign the contact form.
+
+---
+
+# 8. PHONE NUMBER — ZERO REMAINING INSTANCES
+
+Perform a COMPLETE website-wide search.
+
+There must be NO contact phone number remaining anywhere.
+
+Check:
+
+* Header
+* Footer
+* Home Page
+* Services Page
+* Contact Page
+* Mobile menu
+* CTA buttons
+* Forms
+* Popups
+* Modals
+* Cards
+* Contact sections
+* Metadata/visible text
+* Links using tel:
+* Mobile-only content
+* Hidden responsive content
+
+Remove all website phone-number references related to the business.
+
+Do NOT remove email or LinkedIn.
+
+---
+
+# 9. LINKEDIN — FINAL VERIFICATION
+
+Only the intended LinkedIn social media link should remain active.
+
+Verify:
+
+* Correct LinkedIn URL is used.
+* Link is clickable.
+* Link opens correctly.
+* No duplicate LinkedIn links remain.
+* No unnecessary LinkedIn buttons/features remain.
+
+Do not alter other social/contact channels unless required.
+
+---
+
+# 10. RESPONSIVE QA
+
+Verify the FINAL website on:
+
+* Desktop
+* Tablet
+* Mobile
+
+Check especially:
+
+* Home Page
+* Services Page
+* Voice Samples
+* Broadcast TV
+* Contact Page
+* Header/navigation
+* Footer
+* Service ordering
+* Voice artist categories
+* Contact form
+
+Look for:
+
+* Broken layout
+* Overflow
+* Cropped content
+* Incorrect ordering
+* Missing elements
+* Excessive spacing
+* Broken buttons
+* Broken links
+* Mobile-only issues
+* Desktop-only issues
+
+Fix any issues caused by the requested revisions.
+
+---
+
+# 11. ROUTE QA
+
+Directly verify all important routes, including at minimum:
+
+* /
+* /services
+* /portfolio
+* /contact
+
+Also verify any other existing primary routes in the project.
+
+Each route must:
+
+* Load correctly.
+* Have no fatal errors.
+* Preserve the existing design.
+* Be responsive.
+* Have working navigation.
+
+---
+
+# 12. TECHNICAL QA
+
+Before finishing:
+
+### TypeScript
+
+Run the project's typecheck.
+
+There must be no new TypeScript errors.
+
+### Production Build
+
+Run the production build.
+
+The build must complete successfully.
+
+### Runtime
+
+Check for:
+
+* Console errors
+* Broken imports
+* Missing assets
+* Failed requests
+* Broken components
+* JavaScript exceptions
+
+Fix any issues introduced by these revisions.
+
+---
+
+# 13. THREE.JS / WEBGL WARNING
+
+The previous verification reported Three.js/WebGL warnings caused by the preview/screenshot environment lacking a usable GPU context.
+
+Do NOT remove the site's 3D/Three.js functionality just to hide the warning.
+
+Instead:
+
+* Verify that the website still renders correctly.
+* Preserve the existing visual fallback.
+* Ensure the application remains usable without WebGL where the existing fallback supports it.
+* Do not make unnecessary architectural changes.
+
+If the warning is purely environment-related and does not affect the actual website functionality, leave the existing implementation intact.
+
+---
+
+# 14. FINAL CLIENT REQUIREMENTS CHECKLIST
+
+Before declaring completion, confirm all of the following are TRUE:
+
+[ ] Christian Ministry Services is the exact wording.
+
+[ ] Christian Ministry Services is FIRST on the Home Page service list.
+
+[ ] Christian Ministry Services is FIRST on the Services Page.
+
+[ ] Christian Ministry Services is FIRST wherever relevant services are listed.
+
+[ ] We Serve Every Sector is in the requested FIRST position on the Services Page.
+
+[ ] Website presentation appropriately reflects a Christian-focused identity.
+
+[ ] All voice samples remain full-length.
+
+[ ] Artist/narrator names are hidden from the Voice Samples UI.
+
+[ ] Asher = Urdu Male.
+
+[ ] Khurram = Hindi.
+
+[ ] Arshia = Urdu.
+
+[ ] Sadaf = Hindi.
+
+[ ] PTV is removed.
+
+[ ] Zee is removed.
+
+[ ] Star is removed.
+
+[ ] Contact form validation works.
+
+[ ] Contact form submission flow works.
+
+[ ] Contact form error/success states work.
+
+[ ] Email/contact endpoint is correctly configured.
+
+[ ] No business phone number remains anywhere on the website.
+
+[ ] Only the intended LinkedIn link remains active.
+
+[ ] Desktop layout is correct.
+
+[ ] Tablet layout is correct.
+
+[ ] Mobile layout is correct.
+
+[ ] All major routes work.
+
+[ ] No new runtime errors exist.
+
+[ ] Typecheck passes.
+
+[ ] Production build passes.
+
+[ ] No unrelated functionality was damaged.
+
+---
+
+# 15. FINAL ACTION
+
+Do NOT simply provide a report.
+
+First:
+
+**AUDIT → IDENTIFY → FIX → TEST → RE-TEST → FINALIZE**
+
+Only after everything above is verified should you present the website as:
+
+**FINAL CLIENT-READY VERSION**
+
+At the end, provide a concise completion report containing only:
+
+1. Changes actually fixed.
+2. Tests actually performed.
+3. Any limitation that could not be independently verified.
+
+Do not claim something was tested or confirmed unless it was actually tested or confirmed.
+
+The website must be left in its final production-ready state with no unnecessary redesigns or further edits required.
